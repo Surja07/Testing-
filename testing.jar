@@ -1,18 +1,9 @@
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-public class ExampleTest {
+public class HelloWorldTest {
+
     @Test
-    public void testExample() {
-        WebDriver driver = new ChromeDriver();
-        driver.get("https://www.example.com");
-
-        WebElement element = driver.findElement(By.tagName("h1"));
-        System.out.println("Header text: " + element.getText());
-
-        driver.quit();
+    public void testHelloWorld() {
+        System.out.println("Hello, World!");
     }
 }
