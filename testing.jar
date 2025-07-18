@@ -1,8 +1,3 @@
-Another Test File with Selenium in Java
-
-Here's another simple Selenium test in Java for testing a basic web interaction:
-
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
